@@ -1,0 +1,150 @@
+.header__navigation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.header__navigation-bar {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header__navigation-home:hover {
+    color: var(--orange);
+    transition: 0.5s;
+}
+
+.header__navigation-child {
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header__navigation-heading {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.main {
+    margin-top: 0;
+}
+
+.main__ask {
+    margin-top: 110px;
+}
+
+.main .main__search {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    position: unset;
+}
+
+.search-content {
+    margin-top: 0;
+}
+
+.main__tour, 
+.main__tour-ticket {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main__pagination {
+    text-align: center;   
+    margin-top: 50px; 
+}
+
+.main__pagination-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.main__pagination-link:hover,
+.main__pagination-link--active {
+    background: #33313b;
+    color: var(--white);
+}
+
+.main__blog {
+    padding-bottom: 0;
+}
+
+.main__blog-item-wrapper {
+    margin-bottom: 30px;
+}
+
+.main__contact-item {
+    text-align: center;
+    width: 100%;
+    background: var(--gray);
+    padding: 24px;
+}
+
+.main__contact-wrapper {
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+.main__contact-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    background: var(--orange);
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.main__contact-item-icon {
+    color: var(--white);
+    font-size: 3rem;
+    line-height: 10rem;
+}
+
+.main__contact-item-head {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--orange);
+    margin-bottom: 8px;
+}
+
+.main__contact-img {
+    padding-top: 100%;
+}
+
+.main__contact-form {
+    padding: 48px;
+    background: var(--gray);
+}
+
+.main__contact-input,
+.main__contact-txt-area {
+    padding: 6px 12px;
+    margin-bottom: 16px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    line-height: 3.8rem;
+    display: block;
+    width: 100%;
+}
+
+.main__contact-txt-area {
+    line-height: 2.2rem;
+}
+
+.main__contact-txt-area::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
