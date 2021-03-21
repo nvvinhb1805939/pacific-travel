@@ -43,6 +43,7 @@ input[type=text] {
 }
 
 .d-flex {
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -104,6 +105,13 @@ input[type=text] {
     background: var(--orange);
     color: var(--white);
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: black;
+    color: var(--white);
+    transition: 0.3s;
 }
 
 .btn--active {
